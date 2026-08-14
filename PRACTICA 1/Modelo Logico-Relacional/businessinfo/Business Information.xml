@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="FF461C6F-8315-B388-E267-2B7B6F48E91F">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 22:51:17 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="54B926A4-1688-4A90-E2B9-E09B2441269F">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 22:51:17 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
