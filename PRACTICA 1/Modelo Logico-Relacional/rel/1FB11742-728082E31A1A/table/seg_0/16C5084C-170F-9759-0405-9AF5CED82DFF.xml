@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16C5084C-170F-9759-0405-9AF5CED82DFF" name="ESTUDIANTE">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>CC0D864D-5B59-49C9-92CA-E536DAF911DE</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estudiante" id="F30E2900-459A-EDC8-E5A5-2DCC9D993550">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>E5AD03F6-F89C-7C4E-9B22-AFC5AB0AC460</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carnet" id="F9219DF4-3E3A-2CC0-3847-C13939B3EDC7">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>263DED15-CD93-7B4D-A5A5-9072073B4750</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="00AE6C56-2C17-E07B-958B-5C2D2D5A0C63">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>3C3D4D32-1F13-E6AB-8A38-55D4D06561EB</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carrera_tecnica" id="BFAB50A6-1F88-ADB7-65F6-EFE7DA4E07D6">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>5EF8AEB8-D1EB-AAF4-3635-F69A0D9B63B7</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="611FC497-F2B8-2016-CA78-F604BAA8272F">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>70C5E105-CF45-D11D-0130-D3762AFF3A74</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="658EE855-8528-40D5-2579-322BD9AFCA2B">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>255220AF-0491-1127-CF50-DA0FBA7C68D4</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="7F6FE7CD-8CF4-B590-153E-D3963AEB4397">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>90C0B79C-5B85-4707-09C6-EA33305E681E</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="B5997D1E-DF42-0524-FFDC-E03E5713C213">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>DD56FB7F-B48C-6184-915B-1E270EA4A50F</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departamento" id="13190A60-4A93-A300-ED52-20B6942127AD">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>B2BF1E2E-469D-E51D-F3A4-FE46BAB44134</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="municipio" id="B78600B6-244A-E80A-25B9-CD1282ABE57A">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>02A1D4CD-D798-816D-A3DA-3C5D9C09B4D3</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="es_repitencia" id="B58547AF-5914-7AEF-5A45-F6734A8643DD">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>5B10625D-AE08-1451-E19E-A59FBB775C7C</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9400A028-3543-4B36-48EC-E1EB0B71B996" name="ESTUDIANTE_PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>73E6990E-4642-9AFC-3598-96D249334420</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F30E2900-459A-EDC8-E5A5-2DCC9D993550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

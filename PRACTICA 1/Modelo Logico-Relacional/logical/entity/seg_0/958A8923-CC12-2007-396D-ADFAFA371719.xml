@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="958A8923-CC12-2007-396D-ADFAFA371719" name="CATEDRATICO">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 22:58:47 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_catedratico" id="30072404-9E2A-EDD5-19EA-0CF3EDD832BC">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:16:17 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" id_instituto" id="01234CCD-A10A-DFAE-6750-24BA2FC3198E">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:16:31 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="38DAF1E0-01C5-649D-128C-DECEC722A17B">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:16:39 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion" id="0AEA48C8-A673-AFED-804B-7659A7560507">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:16:51 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="0CC23754-B72B-4386-ACCF-2B24E168F8B8">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:17:03 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="D3D2C879-2785-D245-92B7-AA5D41751106">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:17:16 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_instituto" id="14B0BECA-14E8-9C8B-3224-2778E99916D9">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 17:25:46 UTC</createdTime>
+<generatorID>A57876BF-2988-8646-F40C-E78E3E6ED113</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<referedAttribute>AA4F229F-7462-68CE-F349-99FE275182E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="357E0047-526E-0E6C-08F4-DD9C05C92748" name="CATEDRATICO PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:46:53 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30072404-9E2A-EDD5-19EA-0CF3EDD832BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

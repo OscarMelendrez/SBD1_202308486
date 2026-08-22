@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="362645C5-A619-97A8-C1AC-98E7A06E0700" name="CATEDRATICO">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>958A8923-CC12-2007-396D-ADFAFA371719</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_catedratico" id="64A942AE-E0B0-C931-8714-7095B1E272ED">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>30072404-9E2A-EDD5-19EA-0CF3EDD832BC</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_instituto" id="34D3B6F1-7032-6D43-08AB-068065578AFB">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>01234CCD-A10A-DFAE-6750-24BA2FC3198E</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="53F37750-2B3A-B30C-28B7-AE1BACA0D54C">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>38DAF1E0-01C5-649D-128C-DECEC722A17B</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificacion" id="E50B1133-927D-4BE9-635A-94B5BAF1C89D">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>0AEA48C8-A673-AFED-804B-7659A7560507</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="754627C3-8768-31DD-F604-B5D961541C9C">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>0CC23754-B72B-4386-ACCF-2B24E168F8B8</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad" id="6F4F7DE2-DC3E-C8B9-7D67-3DA1A7BC33D8">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>D3D2C879-2785-D245-92B7-AA5D41751106</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUTO_id_instituto" id="8F4CF6D8-C696-DA55-FFB4-A6B6DDE92CC7">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>14B0BECA-14E8-9C8B-3224-2778E99916D9</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF7C6427-660A-6918-2E0D-763DAE568201" referredColumn="D9754158-CA7F-F71E-F1E5-DBB3CD8D4A3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DBC17BB-88F4-3A7B-AD6F-6C19163E8553" name="CATEDRATICO_PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>357E0047-526E-0E6C-08F4-DD9C05C92748</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64A942AE-E0B0-C931-8714-7095B1E272ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="179ED109-E37B-E731-593E-38FF071D3879" name="CATEDRATICO_INSTITUTO_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>A57876BF-2988-8646-F40C-E78E3E6ED113</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F4CF6D8-C696-DA55-FFB4-A6B6DDE92CC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

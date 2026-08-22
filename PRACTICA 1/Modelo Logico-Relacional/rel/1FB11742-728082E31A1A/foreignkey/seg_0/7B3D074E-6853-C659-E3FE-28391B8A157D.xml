@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B3D074E-6853-C659-E3FE-28391B8A157D" containerWithKeyObject="537DDFD5-ADF7-0C87-8A4C-7D241AFF61D2" localFKIndex="8AA02744-0C84-39AE-D40B-B93FFBD0B820" name="BITACORA_COLOCACION_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>C679771D-4720-F007-7749-67C4482BCABD</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<referredTableLongName>COLOCACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01CC1626-2F66-2B74-867C-011DED25F137</referredTableID>
+<keyObject>0D788221-0982-A71E-1393-EDA92BDED3F3</keyObject>
+<referredKeyID>0D788221-0982-A71E-1393-EDA92BDED3F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_colocacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

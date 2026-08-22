@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED5B18D8-509F-A976-3348-13DCD04598C1" name="CONTACTO_EMPRESARIAL">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>B6033D3C-1849-31D4-1DDA-D42E1E5C5A9B</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contacto" id="2E9655DC-5643-CAE1-70D3-89481AC5F602">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>64588993-8EEC-C7D8-FB48-9525391FAFB5</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empresa" id="63B4127D-945C-EC03-110F-D9A38657D927">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>AE34B293-21AC-76A1-3436-5025C1B67A40</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7D3A34B6-ADB7-83C1-1816-3306B2F3188D">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>51EC58D4-7795-657E-6FD1-18EAF2C2A3C0</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="96134FB4-8F5A-EA11-34DF-57DC9AC9CF35">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>760AE736-AD53-110E-C626-D6D77F31277A</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="BA804609-DE5F-66BB-66B0-57EC891743FA">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>D8B5F039-1FB7-6FFE-8B5F-5A51D03D34C0</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id_empresa" id="F53950EE-0B72-F927-21F0-CD6FEE8BF1F5">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>A0EB355A-236F-E6F1-5A59-86B010D08A32</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94E066E5-E79B-0763-5321-D0AFE29F2796" referredColumn="08F90A7F-5C60-7013-1EFD-F4A79DF557EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F57DC76-C78B-3359-AB21-A6C80CED6A01" name="CONTACTO_EMPRESARIAL_PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>FCCB4EDD-2A23-D228-7A7C-6AA631B8765B</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E9655DC-5643-CAE1-70D3-89481AC5F602"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ECFA882-0C13-1ED6-F928-BEBD88AC5FA7" name="CONTACTO_EMPRESARIAL_EMPRESA_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>40B9E29A-14A6-CCEE-D624-2281FF3794BB</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F53950EE-0B72-F927-21F0-CD6FEE8BF1F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

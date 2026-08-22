@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="537DDFD5-ADF7-0C87-8A4C-7D241AFF61D2" name="BITACORA">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>B1FC1156-5DED-131F-A32A-D4E7CC61BDEB</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bitacora" id="B77931BE-236F-9B06-CC17-A2601747A68C">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>10085512-006D-0C46-4DD5-C2F3E67B83EB</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_colocacion" id="F5857C14-BD45-6822-3731-E67C8C879088">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>57AC6F5E-4842-5838-791F-60F321D9BA83</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correlativo" id="61D2EBB0-916C-E12B-6D20-0CB0AD4CD36B">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>E5D53BE1-9315-571B-DE92-6DA3FDFECD9A</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio" id="6B6065FA-6291-D763-9B42-6F3D69F9F30A">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>FC86CCB2-1741-257E-AD78-6C18A48DAFB7</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mes" id="C02A906D-027E-C945-F4AD-ABA6A01AAC28">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>1E8A62D2-592B-C485-155E-D7F662FBFB7F</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="76455365-F27E-398D-4527-F6BAE72E4885">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>34A31109-40BB-AF25-A64D-544CB8470BA9</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_trabajadas" id="62FD4630-3F48-6080-D44F-CC99986C0E13">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>A0E3BEB1-5C79-A64F-5CE6-6F02E9E325DC</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actividades_realizadas" id="840ACB7B-8985-52CE-15B5-189CC4027A6B">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>74441EAC-E931-D408-23ED-B46B42012DBF</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="2848A9DB-C341-1973-748E-89785CC068BC">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>6CB6FE7C-957F-D8AB-BB4A-6916832A3929</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLOCACION_id_colocacion" id="7F72DE14-F4F8-19F3-28A8-0FA7588CC854">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>5C9ADD31-62CF-F33A-1EB4-EDCCD73425C7</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B3D074E-6853-C659-E3FE-28391B8A157D" referredColumn="BE495605-9B45-BE48-08E3-7A595514669E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07023323-C50F-AB34-A3D5-539BF3E51281" name="BITACORA_PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>C0EE0EEA-2F48-881A-2681-B59ACCF400E7</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B77931BE-236F-9B06-CC17-A2601747A68C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AA02744-0C84-39AE-D40B-B93FFBD0B820" name="BITACORA_COLOCACION_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>C679771D-4720-F007-7749-67C4482BCABD</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F72DE14-F4F8-19F3-28A8-0FA7588CC854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

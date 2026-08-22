@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF7CF3FB-CA6C-3410-CCBE-01D16721F417" containerWithKeyObject="DA1B5B81-5CFA-D417-6EB0-362BCD38B59C" localFKIndex="51261656-5842-F709-266D-FF0B42A8424A" name="EVALUACION_DE_CRITERIO_EVALUACION_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>B56AEF7F-46EF-D8FD-6376-C80348D1B535</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<referredTableLongName>EVALUACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54675613-F9C1-A6BE-7349-E755AF834E55</referredTableID>
+<keyObject>E3CB4F81-1439-EA89-0258-AB9B2147C97F</keyObject>
+<referredKeyID>E3CB4F81-1439-EA89-0258-AB9B2147C97F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_evaluacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

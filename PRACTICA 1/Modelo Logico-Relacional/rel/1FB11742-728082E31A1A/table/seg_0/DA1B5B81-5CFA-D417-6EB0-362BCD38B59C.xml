@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA1B5B81-5CFA-D417-6EB0-362BCD38B59C" name="EVALUACION_DE_CRITERIO">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>3AAAA0A1-5A8D-5A91-D6E8-E4B106E3EDBC</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_criterio" id="1D9BC4E7-6AA6-683D-ED08-1E7B2B7BEA51">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>09638FC2-8F56-96C8-2B81-4F0CCD3B84E0</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_criterio" id="A2A9F881-74D1-4606-23F3-6AF519678B21">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>3FDBE997-3C54-B717-FE93-6DC62423101F</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="4D27B02A-F773-0B00-2AC7-425BC7426CCC">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>A674B3FF-5908-7E8D-B142-0DF4849DE68E</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVALUACION_id_evaluacion" id="5C796C7D-6B5D-6005-FB6E-BE30F771E489">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>EABCF4B9-3A08-1373-5CC8-8334990CD143</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF7CF3FB-CA6C-3410-CCBE-01D16721F417" referredColumn="C0A4A5BF-D6F2-FC5F-EF18-C72040F9B803"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E7EC0C0-A570-7BBD-472A-441D591334FF" name="EVALUACION_DE_CRITERIO_PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>6FE971B8-6D84-47DE-1933-2F5017473F92</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D9BC4E7-6AA6-683D-ED08-1E7B2B7BEA51"/>
+<colUsage columnID="5C796C7D-6B5D-6005-FB6E-BE30F771E489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51261656-5842-F709-266D-FF0B42A8424A" name="EVALUACION_DE_CRITERIO_EVALUACION_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>B56AEF7F-46EF-D8FD-6376-C80348D1B535</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C796C7D-6B5D-6005-FB6E-BE30F771E489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

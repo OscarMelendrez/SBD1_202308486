@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AC44518-A0B1-C53A-9261-CB602D33000C" containerWithKeyObject="01CC1626-2F66-2B74-867C-011DED25F137" localFKIndex="78E67232-A4F7-7C6C-2940-8E6E24542416" name="COLOCACION_CATEDRATICO_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>ED86163B-5995-3F24-EB47-EE38E18F4DC6</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<referredTableLongName>CATEDRATICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>362645C5-A619-97A8-C1AC-98E7A06E0700</referredTableID>
+<keyObject>3DBC17BB-88F4-3A7B-AD6F-6C19163E8553</keyObject>
+<referredKeyID>3DBC17BB-88F4-3A7B-AD6F-6C19163E8553</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_catedratico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

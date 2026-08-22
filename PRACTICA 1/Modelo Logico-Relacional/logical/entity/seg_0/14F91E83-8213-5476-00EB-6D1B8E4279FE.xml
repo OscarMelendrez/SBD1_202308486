@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14F91E83-8213-5476-00EB-6D1B8E4279FE" name="PLAZA">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 22:58:35 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plaza" id="5FE120E2-CC51-6230-E526-5E714A41D66D">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:14:04 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contacto" id="EE631588-E397-BFA1-C4F9-6E412333AC10">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:14:12 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad_tecnica" id="4D600713-9C15-0CFB-24FA-193826E94F9A">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:14:42 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="B08D21ED-AC5F-53A5-C23E-1D1EA4E4E146">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:14:57 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contacto1" id="D7B9A034-5E4C-92D3-6C8C-B5047DD35567">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 17:25:18 UTC</createdTime>
+<generatorID>B098317F-6298-D0D3-B94A-B18E90126F8D</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<referedAttribute>64588993-8EEC-C7D8-FB48-9525391FAFB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A857CAA2-143E-BAD8-B70F-7ECE3FEF9281" name="PLAZA PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-14 23:46:30 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FE120E2-CC51-6230-E526-5E714A41D66D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01CC1626-2F66-2B74-867C-011DED25F137" name="COLOCACION">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>1A739C4B-F71F-A13F-A386-3BA4EC7DE35D</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_colocacion" id="BE495605-9B45-BE48-08E3-7A595514669E">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>037DABAF-A495-F037-D76B-DE35F06C8FEF</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estudiante" id="286EB928-4202-70C6-803F-7E79C07F5022">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>21744800-FD74-1CED-476A-FFA0F621D897</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_plaza" id="DDA23510-A7F3-6B4A-7D59-44EC122CF104">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>4A5BCB46-271E-5B39-4401-D3A1304F77F1</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_catedratico" id="98E97114-8BE3-492E-5381-8AC9139CACE4">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>772713E3-AB1A-976E-BD0B-4343A8A1237C</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="EFDFF507-8B7F-2ABE-D892-A1889FD32CEB">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>5C95412E-E8E9-17E3-0783-30779FBD2BF6</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="3D5506C2-165C-CFD4-CD34-DA49F38D00B9">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>2AC1D293-096C-8234-1F16-E0A61791EBB8</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="320417B7-572E-5EF8-4A24-0098225FE3AA">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>AF837BC6-4E1A-156F-0603-DCACC651D7B2</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEDRATICO_id_catedratico" id="F294F254-635A-7A0E-AFE0-0F98EE996C87">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>DC065EA3-71AD-3055-70AC-EC152EFB1555</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AC44518-A0B1-C53A-9261-CB602D33000C" referredColumn="64A942AE-E0B0-C931-8714-7095B1E272ED"/>
+</associations>
+</Column>
+<Column name="ESTUDIANTE_id_estudiante" id="D9BB5466-BC45-C847-1612-67E35813AB36">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>E9914066-035C-B9EF-409D-F0739F201FC3</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E4E9AF6-620A-5F16-6A9C-3B228B23428E" referredColumn="F30E2900-459A-EDC8-E5A5-2DCC9D993550"/>
+</associations>
+</Column>
+<Column name="PLAZA_id_plaza" id="8EBA45C1-6086-7AB1-3783-0E03433BE0CA">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>DCCE680E-51C7-C0C6-FA38-8F08C47FCEF7</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DA16AF1-5F6C-B59D-2366-5EFEB302B84E" referredColumn="8DD6D610-3D02-140A-D947-179D1863C842"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D788221-0982-A71E-1393-EDA92BDED3F3" name="COLOCACION_PK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>60AF83EC-4F4B-B188-629E-B4FD79CA8736</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE495605-9B45-BE48-08E3-7A595514669E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78E67232-A4F7-7C6C-2940-8E6E24542416" name="COLOCACION_CATEDRATICO_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>ED86163B-5995-3F24-EB47-EE38E18F4DC6</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F294F254-635A-7A0E-AFE0-0F98EE996C87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24931C3D-0454-B466-27E7-6299071237C8" name="COLOCACION_ESTUDIANTE_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>A64A89CA-8B7C-6469-F11F-E1AC90A21CD9</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9BB5466-BC45-C847-1612-67E35813AB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6E63ED2-C48D-4ECC-E822-AB8F2D8EA483" name="COLOCACION_PLAZA_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>D67344BA-C372-D7CA-917B-6FBCB2F9D774</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EBA45C1-6086-7AB1-3783-0E03433BE0CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

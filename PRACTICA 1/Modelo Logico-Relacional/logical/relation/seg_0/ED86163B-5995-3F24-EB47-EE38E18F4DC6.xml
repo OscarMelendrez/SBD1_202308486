@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="ED86163B-5995-3F24-EB47-EE38E18F4DC6">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 17:26:03 UTC</createdTime>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<engineerTo>
+<item key="1FB11742-39C2-64D2-F617-728082E31A1A" value="true"/>
+</engineerTo>
+<sourcePk>357E0047-526E-0E6C-08F4-DD9C05C92748</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>958A8923-CC12-2007-396D-ADFAFA371719</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A739C4B-F71F-A13F-A386-3BA4EC7DE35D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

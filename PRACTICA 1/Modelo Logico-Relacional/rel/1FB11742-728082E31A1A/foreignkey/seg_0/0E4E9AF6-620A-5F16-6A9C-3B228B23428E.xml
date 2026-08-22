@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E4E9AF6-620A-5F16-6A9C-3B228B23428E" containerWithKeyObject="01CC1626-2F66-2B74-867C-011DED25F137" localFKIndex="24931C3D-0454-B466-27E7-6299071237C8" name="COLOCACION_ESTUDIANTE_FK">
+<createdBy>omele</createdBy>
+<createdTime>2026-08-16 22:09:14 UTC</createdTime>
+<generatorID>A64A89CA-8B7C-6469-F11F-E1AC90A21CD9</generatorID>
+<ownerDesignName>Modelo Logico-Relacional</ownerDesignName>
+<referredTableLongName>ESTUDIANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16C5084C-170F-9759-0405-9AF5CED82DFF</referredTableID>
+<keyObject>9400A028-3543-4B36-48EC-E1EB0B71B996</keyObject>
+<referredKeyID>9400A028-3543-4B36-48EC-E1EB0B71B996</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estudiante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
